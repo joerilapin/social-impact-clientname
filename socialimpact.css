@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+
+.bg {
+    /* gebruikte image*/
+    background-image: url("tafeltennis-batje-zacht-rood-kant-300x300.jpg");
+    background-size: 500px 500px;
+
+    /* hoogte*/
+    height: 100%;
+    /* Centreren en schaal */
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    background-color: lightgrey;
+}
+
+/* achtergrondkleur */
+.topnav {
+    background-color: lightslategray;
+    overflow: hidden;
+}
+
+/* Stijl de links */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Hover kleur */
+.topnav a:hover {
+    background-color: #ddd;
+    color: white;
+    opacity: inherit;
+}
+
+/* Kleur voor de actieve link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: black;
+
+    .container{position: relative;
+        text-align: center;
+        color: white;}
+    .centered{position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);}
+}
