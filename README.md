@@ -15,4 +15,6 @@ hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+problem solde I had to add my .jpg which I had put in the local directory ;)
+
 
